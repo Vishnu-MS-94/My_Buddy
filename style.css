@@ -1,0 +1,185 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    color: aliceblue;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 10px 10p 10px gray;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: 'League Spartan', sans-serif, 'Pacifico', cursive;
+
+}
+
+.container{
+    width: 100%;
+    height: 90vh;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(177, 177, 177);
+
+}
+.container .sub-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 10px 10px 40px gray;
+
+}
+.container .sub-container .text h1{
+    color: rgb(2, 61, 107);
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.purpose-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 37, 135);
+
+}
+.purpose-container .purpose-sub
+{
+    height: 70%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.purpose-container .purpose-sub p{
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.purpose-container .purpose-sub .picture-frame{
+    height: 90%;
+    width: 90%;
+    border-radius: 5px;
+}
+.purpose-container .purpose-sub .frame{
+    height: 90%;
+    width: 90%;
+    border-radius: 5px;
+}
+.purpose-container.three{
+    background-color: rgb(195, 195, 195);
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    color: aliceblue;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 1em 1em 1em gray;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: 'League Spartan', sans-serif, 'Pacifico', cursive;
+}
+
+.container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(177, 177, 177);
+}
+
+.container .sub-container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.5em;
+    overflow: hidden;
+    box-shadow: 1em 1em 4em gray;
+}
+
+.container .sub-container .text h1 {
+    color: rgb(2, 61, 107);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.purpose-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 37, 135);
+}
+
+.purpose-container .purpose-sub {
+    height: 70%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    border-radius: 0.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.purpose-container .purpose-sub p {
+    font-size: 1.5em;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.purpose-container .purpose-sub .picture-frame {
+    height: 90%;
+    width: 90%;
+    border-radius: 0.5em;
+}
+
+.purpose-container .purpose-sub .frame {
+    height: 90%;
+    width: 90%;
+    border-radius: 0.5em;
+}
+
+.purpose-container.three {
+    background-color: rgb(195, 195, 195);
+}
